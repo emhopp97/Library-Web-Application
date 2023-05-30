@@ -1,0 +1,32 @@
+<div class='container-fluid'>
+    <h3>Add Book</h3>
+    <form action='index.php?mode=addbook' method='post'>
+    
+        <table class='table'>
+            <tr>
+                <td>Title:</td><td><input type='text' name="title" placeholder="Enter title" required></td>
+            </tr>
+            <tr>
+                <td>Author(s):</td><td><input type='text' name="authors" placeholder="Enter author(s)" required></td>
+            </tr>
+            <tr>
+                <td>ISBN:</td><td><input type='number' name="isbn" placeholder="Enter ISBN" required></td>
+            </tr>
+            <tr>
+                <td>Publisher:</td><td><input type='text' name="publisher" placeholder="Enter publisher" required></td>
+            </tr>
+            <tr>
+                <td>Publication Date:</td><td><input type='date' name="publicationDate" placeholder="Enter publication date" required></td>
+            </tr>
+            <tr>
+                <td>Number of Pages:</td><td><input type='number' name="numPages" placeholder="Enter num pages" required></td>
+            </tr>
+            <tr>
+                <td>Language:</td><td><input type='text' name="language" placeholder="Enter language" required></td>
+            </tr>
+        </table>
+
+        <p><button type='submit' class="btn btn-primary">Submit</button></p>
+
+    </form>
+</div>
